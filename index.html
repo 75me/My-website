@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- SEO META -->
+    <meta name="description" content="My portfolio website showcasing my projects and skills">
+
+    <title>My Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.ico">
+
+    <!-- CSS FILE -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>My Portfolio</h1>
+    <p>CCreative Portfolio | Web Developer</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#media">Media</a>
+    <a href="#quiz">Quiz</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT SECTION -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate web development student who enjoys creating beautiful and functional websites.</p>
+</section>
+
+<!-- PROJECTS SECTION -->
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <article>
+        <h3>Project One</h3>
+        <figure>
+            <img src="images/project1.jpg.jpg" alt="Project 1" width="200">
+            <figcaption>My first portfolio project</figcaption>
+        </figure>
+    </article>
+
+    <article>
+        <h3>Project Two</h3>
+        <figure>
+            <img src="images/project2.jpg.jpg" alt="Project 2" width="200">
+            <figcaption>My second portfolio project</figcaption>
+        </figure>
+    </article>
+
+</section>
+
+<!-- MEDIA SECTION -->
+<section id="media">
+    <h2>My Media</h2>
+
+    <!-- VIDEO -->
+    <video controls width="300">
+        <source src="video/sample.mp4.mp4" type="video/mp4">
+    </video>
+
+    <!-- AUDIO -->
+    <audio controls>
+        <source src="audio/sample.mp3.mp3" type="audio/mp3">
+    </audio>
+</section>
+
+<!-- QUIZ SECTION -->
+<section id="quiz">
+    <h2>Quick Quiz</h2>
+    <p>Which language is used for styling websites?</p>
+
+    <button onclick="checkAnswer('wrong')">HTML</button>
+    <button onclick="checkAnswer('correct')">CSS</button>
+
+    <p id="quizResult"></p>
+</section>
+
+<!-- CONTACT FORM -->
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+        <label>Name:</label>
+        <input type="text" id="name">
+        <span id="nameError"></span>
+
+        <label>Email:</label>
+        <input type="text" id="email">
+        <span id="emailError"></span>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
+
+<!-- JAVASCRIPT FILE -->
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+/* =========================
+   FONTS
+========================= */
+@font-face {
+    font-family: mainFont;
+    src: url("fonts/font1.ttf");
+}
+
+@font-face {
+    font-family: secondFont;
+    src: url("fonts/font2.ttf");
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    background: #5c4033; /* dark brown */
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* =========================
+   NAVIGATION (GLOW TEXT)
+========================= */
+nav {
+    text-align: center;
+    background: #c8a97e; /* gold */
+    padding: 10px;
+}
+
+nav a {
+    color: #5c4033;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: 0 0 8px white;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+    padding: 30px;
+}
+
+/* FIRST LETTER EFFECT */
+p::first-letter {
+    font-size: 200%;
+    color: #5c4033;
+}
+
+/* =========================
+   PROJECTS (COLUMNS)
+========================= */
+#projects {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+article {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+article {
+    background: white;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* =========================
+   FORM
+========================= */
+input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 220px;
+}
+
+button {
+    background: #5c4033;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+span {
+    color: red;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    background: #5c4033;
+    color: white;
+    padding: 10px;
+}
+html {
+    scroll-behavior: smooth;
+}
